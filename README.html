@@ -3,100 +3,156 @@
 <head>
   <meta charset="utf-8">
   <title>JS Bin</title>
-  <style>
-
+<style>
+  li {list-style-type:none;
+}
+  
+  table {width:3000px; 
+    height:200;
+  } 
+  
+ div {text-align: left;}
+  
+  
+  
+  body {font-size: 10pt;
+    font-family: nanumgothic;
+    }
+    
+    div.page {width: 10000px;
+    }
+    
+    h1 {font-size: 12pt;
+    text-align: right;
+    padding: 10px 50px 0px;}
+    
+    ol.transform {transform: rotate(90deg)
+   }
+    
+   span.pagenum {float: left;
+   margin-right: 15px;
+   margin-left: 8px;}
+    span.pagenum2 {float: left;
+   margin-right: 15px;
+    margin-left: 16px;}
+    span.pagenum3 {float: left;
+   margin-right: 10px;}
+    
+    span.title {margin-left: 39px;
+    font-weight: bold;}
+    span.title2 {margin-bottom: 8px;}
+    span.title3 {margin-left: 39px;}
+    span.title3 {margin-left: 39px;}
+    span.title4 {font-weight: bold;
+      margin-left: 38x;}
+    
+    div.title1 {margin-top: 100px;}
+    div.title {margin-top: 60px;}
+    
+    div.entry {margin-top: 7px;}
+    
   </style>
-</head>
+  
+  </head>
 <body>
-  <div class="page">
-    <h1>중간고사</h1>
-    <h2>인라인 요소 목록</h2>
-    <p>다음은 HTML에서 자주 사용되는 요소들입니다.</p>
-    <ul>
-  <li><span>a</span> :하이퍼링크 (Anchor)</li>
-  <li><span>img</span> : 이미지 (image)</li>
-  <li><span>span</span> : 일반용도의 인라인 (Span)</li>
-  <li><span>strong</span> : 중요 (Strong)</li>
-  <li><span>em</span> : 강조 (Emphasis)</li>
-</ul>
-    <h2>CSS란?</h2>
-      <p>CSS는 Casading Stylesheet의 약자이며 HTML 같은 마크업 언어로 작성된 문서를 꾸미기 위해 사용합니다. HTML 문서의 head 요고 안에 style 요소를 넣고 CSS 코드를 적으면 해당 문서를 다양하게 꾸밀 수 있습니다.<p>
-      <P>CSS에 대한 더 자세한 설명은 <a href="#">CSS</a>문서를 참고하세요.</p>
-  <h2>블럭 요소 목록</h2>
-  <p>다음은 HTML에서 자주 사용되는 요소들입니다.</p>
-  <ol>
-  <li><span>p</span> :단락 (Paragraph)</li>
-  <li><span>h1</span> : 큰제목 (Heading 1)</li>
-  <li><span>ul</span> : 순서 없는 목록 (UnOrdered List)</li>
-  <li><span>ol</span> : 순서 있는 목록 (Ordered List)</li>
-  <li><span>table</span> : 표 (Table)</li>
-</ol>
-  <h2>표 만들기</h2>
-  <p>표를 만들려면 table요소를 사용합니다.</p>
-   <table>
+<div class="page">
+  <h1>차례</h1>
+  <table>
     <thead>
-    <tr>
-      <th>음료</th>
-      <th>가격</th>
-      <th>알콜</th>
+      <tr>
+  <th>
+    <div class="title">
+        <span class="title">김선정</span>
+      </div>
+    <div class="entry">
+        <span class="title2">플랫폼: 임시적 프로젝트</span>
+        <span class="pagenum2">4</span>
+      </div>
+    <div class="entry">
+        <span class="title2">“I have nothing to say and I am saying it”</span>
+        <span class="pagenum">14</span>
+      </div>
+    </th>
+        <th>
+    <div class="title">
+        <span class="title">바르또 마리</span>
+      </div>
+    <div class="entry">
+        <span class="title2">《무대 없는 연극》과 《세상이라는 거대한 연극》:</span> 
+        <span class="pagenum">30</span></div>
+      <div class="entry">
+      <span class="title3">20세기 미술안에서의 연극성에 대한 두 가지 실험</span>
+        </div>
+          </th>
+        <th>
+    <div class="title">
+        <span class="title">박소현</span>
+      </div>
+    <div class="entry">
+        <span class="title2">양포르엘의 지정학과 ‘행동하는 화가’:</span>
+        <span class="pagenum">48</span></div>
+        <div class="entry">
+        <span class="title3">그 개념적 재배치의 계보</span>
+        </div>
+          </th>
+        <th>
+    <div class="title">
+        <span class="title">수미토모 후미히코</span>
+      </div>
+    <div class="entry">
+        <span class="title2">전후 일본 예술의 민족지적 전환</span>
+        <span class="pagenum">80</span>
+      </div>
+        </th>
+    <th>
+    <div class="title">
+        <span class="title">슈 양</span>
+      </div>
+    <div class="entry">
+        <span class="title2">중국의 퍼포먼스와 라이브 아트</span>
+        <span class="pagenum">92</span>
+      </div>
+      </th>
+      <th>
+      <div class="entry">
+        <span class="title2">강연・토크</span>
+        <span class="pagenum3">234</span>
+      </div>
+      <div class="entry">
+        <span class="title2">비디오 프로그램</span>
+        <span class="pagenum3">264</span>
+      </div>
+      <div class="entry">
+        <span class="title2">음악극 공연</span>
+        <span class="pagenum3">272</span>
+      </div>
+      <div class="entry">
+        <span class="title2">플랫폼 요코하마</span>
+        <span class="pagenum3">276</span>
+      </div>
+  </th>
+  <th>
+    <div class="title">
+        <span class="title">정현</span>
+      </div>
+    <div class="entry">
+        <span class="title2">아방가르드와 걷기 </span>
+        <span class="pagenum3">282</span>
+      </div>
+    </th>
+  <th>
+    <div class="title">
+        <span class="title">배은아</span>
+      </div>
+    <div class="entry">
+        <span class="title2">미래의 과거: 플랫폼 서울</span>
+        <span class="pagenum3">292</span>
+      </div>
+    </th>
     </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>아메리카노</td>
-      <td>2,000</td>
-      <td>X</td>
-      </tr>
-          <tr>
-      <td>카페모카</td>
-      <td>2,500</td>
-      <td>X</td>
-      </tr>
-          <tr>
-      <td>맥주</td>
-      <td>3,000</td>
-      <td>Y</td>
-      </tr>
-    </tbody>
+  </thead>
   </table>
-  <h2>HTML이란?</h2>
-  <p>HYML은 하이퍼텍스트 마크업 언어 (Hypertext Markup Language)의 약자로, 웹 페이지를 만들 때 사용되는 문서 형식입니다.</p>
-  <p>하이퍼텍스트(Hypertext)란 하이퍼링크(Hyperlink)를 담고 있는 문서를 뜻합니다. 하이퍼링크는 문서들이 서로 연결되어있는 고리를 말합니다.</p>
-  <h2>중첩된 목록</h2>
-  <p>목록 요소 안에 또다른 목록 요소를 중첩하여 사용할 수 있습니다.</p>
- 
-  <nav>
-  <ol>
-    <li>
-  <div class="entery"> <span class="title">홍길동</span> </div>
-<ol>
- <li>
-         <div class="entery"> <span class="title">지각 없음</span> </div>
-        </li>
-    <li>
-         <div class="entery"> <span class="title">결석 없음</span> </div>
-      </li>
-    <li>
-         <div class="entery"> <span class="title">과제 만점</span> </div>
-           </li>
-    </ol> 
-    <li>
-  <div class="entery"> <span class="title">이몽룡</span> </div>
-    <ol>
-    </li>
-      <li>
-         <div class="entery"> <span class="title">지각 2회</span> </div>
-        </li>
-    <li>
-         <div class="entery"> <span class="title">결석 없음</span> </div>
-      </li>
-    <li>
-         <div class="entery"> <span class="title">과제 만점</span> </div>
-           </li>
-    </ol>
-    </ol>
-    </nav>
-  <span><em>2014년 10월 14일 중간고사, 이한빈 작성</em></span>
   </div>
+
 </body>
 </html>
