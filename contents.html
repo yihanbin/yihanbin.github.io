@@ -4,28 +4,169 @@
   <meta charset="utf-8">
   <title>JS Bin</title>
 <style>
-  body {font-size: 10pt;
-    font-family: nanumgothic;
+  
+  body {width: 8870px;
+      height: 500px;
+font-family: NanumGothic;
+font-size: 10pt;}
+    
+    div.first {width: 4300px;
+      height: 500px;}
+  
+  div.second {width: 4300px;
+      height: 500px;}
+  
+  
+  
+  .차례 {position: relative;
+      width: 50px;
+    height: 30%;
+  
+  }
+  h1:hover {
+    color:gray;}
+  
+  a{ text-decoration: none;}
+  
+  
+  
+    
+    h1.한글 {font-size:10pt;
+    text-align:center;
+    position: fixed;
+    margin-left:12%;
+    margin-top:5%;
+    }
+  h1.영어 {font-size:10pt;
+    text-align:center;
+    position: fixed;
+      margin-left:22%;
+    margin-top:5%;
+    }
+
+  
+  
+    
+    
+    .페이지1, .페이지2, .페이지3, .페이지4, .페이지5{
+      position: relative;
+      float: left;
+      
+      width: 500px;
+      height: 400px;
+      }
+      .페이지5{
+      position: relative;
+      float: left;
+      
+      width: 1100px;
+      height: 400px;
+      }
+    .페이지6, .페이지7{
+      position: relative;
+      float: left;
+      
+      width: 400px;
+      height: 400px;
+      }
+    .페이지8{
+      position: relative;
+      float: left;
+      
+      width: 700px;
+      height: 400px;
+      }
+  
+      .페이지88{
+      position: relative;
+      float: left;
+      
+      width: 370px;
+      height: 400px;
+      }
+    
+    
+ 
+  
+    
+    
+    
+   .top1, .top2, .top3, .top4, .top5, .top6, .top7, .top8{
+     position: relative;
+     
+      width: 500px;
+      height: 100px;
+    }
+.top8{
+     position: relative;
+     
+      width: 300px;
+      height: 100px;
     }
     
-    h1 {font-size: 12pt;
-    padding: 50px 40px 50px;}
-  
-  li {list-style-type:none;
-}
-  
-  table {width:3000px; 
-    height:200;
-  } 
-  
- div.page {width:100%;}
-  div {text-align: left;}
- div.title {margin-bottom: 20px;}
     
-    .entry {margin-top: 9px;
-    }
+    
+
+   .bottom11{
+     position: absolute;
+     
+      width: 250px;
+      height: 40px;
+     bottom: 185px;
+   }  
+   .bottom44{
+     position: absolute;
+    
+      width: 190px;
+      height: 100px;
+   }  
+   .bottom22, .bottom33{
+     position: absolute;
+    
+      width: 240px;
+      height: 150px;
+   }  
+  .bottom55{
+     position: absolute;
+   
+      width: 300px;
+      height: 210px;
+    left:660px;
+    
+   }
+   
+
+     .bottom1, .bottom4{
+     position: absolute;
+    
+      width: 190px;
+      height: 100px;
+   }  
+   .bottom2, .bottom3{
+     position: absolute;
+    
+      width: 240px;
+      height: 150px;
+   }  
+  .bottom5{
+     position: absolute;
+     
+      width: 300px;
+      height: 210px;
+      left:630px;
+     }
   
-  .pagenum {float: left;
+  
+    
+
+    
+    
+    
+    ol {list-style-type: none;
+    }
+    
+
+    .pagenum {float: left;
    margin-right: 15px;
    margin-left: 8px;}
     .pagenum2 {float: left;
@@ -33,129 +174,85 @@
     margin-left: 16px;}
     .pagenum3 {float: left;
    margin-right: 10px;}
-  
-  span.title {margin-left: 39px;
+    
+    
+    
+    .pagenum {float: left;
+   margin-right: 15px;
+   margin-left: 8px;}
+    
+    .pagenum3 {float: left;
+   margin-right: 10px;}
+    
+    
+    
+    
+      span.title {margin-left: 38px;
     font-weight: bold;}
     span.title2 {margin-bottom: 8px;
     }
     span.title3 {margin-left: 39px;}
     span.title4 {font-weight: bold;
-      margin-left: 38x;}
-  
-  th {font-weight: normal;
-  }
-  
-  .transform > td {
+      margin-left: 3px;}
+    
+    
+   div>ol{line-height: 25px;}
+    
+
+
+    .bottom1, .bottom2, .bottom3, .bottom4, .bottom5 {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
   }
   
     
+  .bottom11, .bottom22, .bottom33, .bottom44, .bottom55 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+ 
+  
+  
   </style>
+  
   
   </head>
 <body>
-<div class="page">
-  <h1>차례</h1>
-  <table>
-    <thead>
-      <tr>
-  <th>
-    <div class="title">
+    
+
+  <div class="차례"><h1 class="한글"><a href="#jump2">차례</a></h1>
+  <h1 class="영어"><a href="#jump">Contents</a></h1></div>
+  
+  
+  <div class="페이지1">
+    <div class="top1">
+      <ol id="jump2">
+    <li>
+      <div class="title1">
         <span class="title">김선정</span>
       </div>
-    <div class="entry">
+    </li>
+  </ol>
+  <ol>
+    <li>
+      <div class="entry">
         <span class="title2">플랫폼: 임시적 프로젝트</span>
         <span class="pagenum2">4</span>
       </div>
-    <div class="entry">
+    </li> 
+    <li>
+      <div class="entry">
         <span class="title2">“I have nothing to say and I am saying it”</span>
         <span class="pagenum">14</span>
       </div>
-    </th>
-        <th>
-    <div class="title">
-        <span class="title">바르또 마리</span>
-      </div>
-    <div class="entry">
-        <span class="title2">《무대 없는 연극》과 《세상이라는 거대한 연극》:</span> 
-        <span class="pagenum">30</span></div>
+    </li> 
+  </ol>
+    </div>
+
+  <div class="bottom1">
+    <ol>
+    <li>
       <div class="entry">
-      <span class="title3">20세기 미술안에서의 연극성에 대한 두 가지 실험</span>
-        </div>
-          </th>
-        <th>
-    <div class="title">
-        <span class="title">박소현</span>
-      </div>
-    <div class="entry">
-        <span class="title2">양포르엘의 지정학과 ‘행동하는 화가’:</span>
-        <span class="pagenum">48</span></div>
-        <div class="entry">
-        <span class="title3">그 개념적 재배치의 계보</span>
-        </div>
-          </th>
-        <th>
-    <div class="title">
-        <span class="title">수미토모 후미히코</span>
-      </div>
-    <div class="entry">
-        <span class="title2">전후 일본 예술의 민족지적 전환</span>
-        <span class="pagenum">80</span>
-      </div>
-        </th>
-    <th>
-    <div class="title">
-        <span class="title">슈 양</span>
-      </div>
-    <div class="entry">
-        <span class="title2">중국의 퍼포먼스와 라이브 아트</span>
-        <span class="pagenum">92</span>
-      </div>
-      </th>
-      <th>
-      <div class="entry4">
-        <span class="title2">강연・토크</span>
-        <span class="pagenum3">234</span>
-      </div>
-      <div class="entry">
-        <span class="title2">비디오 프로그램</span>
-        <span class="pagenum3">264</span>
-      </div>
-      <div class="entry">
-        <span class="title2">음악극 공연</span>
-        <span class="pagenum3">272</span>
-      </div>
-      <div class="entry">
-        <span class="title2">플랫폼 요코하마</span>
-        <span class="pagenum3">276</span>
-      </div>
-  </th>
-  <th>
-    <div class="title">
-        <span class="title">정현</span>
-      </div>
-    <div class="entry">
-        <span class="title2">아방가르드와 걷기 </span>
-        <span class="pagenum3">282</span>
-      </div>
-    </th>
-  <th>
-    <div class="title">
-        <span class="title">배은아</span>
-      </div>
-    <div class="entry">
-        <span class="title2">미래의 과거: 플랫폼 서울</span>
-        <span class="pagenum3">292</span>
-      </div>
-    </th>
-    </tr>
-  </thead>
-    <tbody>
-      <tr class="transform">
-        <td>
-         
-          <div class="entry">
         <span class="title4">길버트 & 조지</span>
         <span class="pagenum">28</span>
       </div>
@@ -163,9 +260,36 @@
         <span class="title4">존 케이지 / 김순기</span>
         <span class="pagenum">26</span>
       </div>
-        </td>
-        <td>
-        <div class="entry">
+    </li> 
+  </ol></div>
+  </div>
+  
+
+  
+  <div class="페이지2">
+    <div class="top2">
+        <ol>
+    <li>
+      <div class="title">
+        <span class="title">바르또 마리</span>
+      </div>
+    </li>
+  </ol>
+  <ol>
+    <li>
+      <div class="entry">
+        <span class="title2">《무대 없는 연극》과 《세상이라는 거대한 연극》:</span> 
+        <span class="pagenum">30</span></div>
+      <div class="entry">
+      <span class="title3">20세기 미술안에서의 연극성에 대한 두 가지 실험</span>
+        </div>
+    </li> 
+  </ol></div>
+    
+    <div class="bottom2">
+    <ol>
+    <li>
+      <div class="entry">
         <span class="title4">로버트 모리스</span>
         <span class="pagenum">46</span>
       </div>
@@ -180,10 +304,38 @@
       <div class="entry">
         <span class="title4">살바도르 달리</span>
         <span class="pagenum">40</span>
-      </div>  
-        </td>
-        <td>
+      </div>
+    </li> 
+  </ol></div>
+  </div>
+  
+
+  
+  
+  <div class="페이지3">
+    <div class="top3">
+        <ol>
+    <li>
+      <div class="title">
+        <span class="title">박소현</span>
+      </div>
+    </li>
+  </ol>
+  <ol>
+    <li>
           <div class="entry">
+        <span class="title2">양포르엘의 지정학과 ‘행동하는 화가’:</span>
+        <span class="pagenum">48</span></div>
+        <div class="entry">
+        <span class="title3">그 개념적 재배치의 계보</span>
+        </div>
+    </li> 
+  </ol></div>
+    
+    <div class="bottom3">
+      <ol>
+    <li>
+      <div class="entry">
         <span class="title4">이본느 라이너</span>
         <span class="pagenum">78</span>
       </div>
@@ -199,9 +351,35 @@
         <span class="title4">앨런 캐프로</span>
         <span class="pagenum">72</span>
       </div>
-        </td>
-        <td>
-          <div class="entry">
+    </li> 
+  </ol></div>
+  </div>
+  
+
+  
+  
+  <div class="페이지4">
+    <div class="top4">
+        <ol>
+    <li>
+      <div class="title">
+        <span class="title">수미토모 후미히코</span>
+      </div>
+    </li>
+  </ol>
+  <ol>
+    <li>
+      <div class="entry">
+        <span class="title2">전후 일본 예술의 민족지적 전환</span>
+        <span class="pagenum">80</span>
+      </div>
+    </li> 
+  </ol></div>
+
+    <div class="bottom4">
+      <ol>
+    <li>
+      <div class="entry">
         <span class="title4">플레이</span>
         <span class="pagenum">90</span>
       </div>
@@ -209,9 +387,35 @@
         <span class="title4">무라카미 사부로</span>
         <span class="pagenum">88</span>
       </div>
-          </td>
-        <td>
-          <div class="entry">
+    </li> 
+  </ol></div>
+  </div>
+
+  
+  
+  
+  <div class="페이지5">
+    <div class="top5">
+      <ol>
+    <li>
+      <div class="title">
+        <span class="title">슈 양</span>
+      </div>
+    </li>
+  </ol>
+  <ol>
+    <li>
+      <div class="entry">
+        <span class="title2">중국의 퍼포먼스와 라이브 아트</span>
+        <span class="pagenum">92</span>
+      </div>
+    </li> 
+  </ol></div>
+
+    <div class="bottom5">
+      <ol>
+    <li>
+      <div class="entry">
         <span class="title4">윤동구</span>
         <span class="pagenum3">230</span>
       </div>
@@ -343,117 +547,112 @@
         <span class="title4">액션 인 차이나</span>
         <span class="pagenum">99</span>
       </div>
-          
-          </td>
-      </tr>
-    </tbody>
-  </table>
+    </li> 
+  </ol></div>
   </div>
   
+
+  
+  
+  <div class="페이지6">
+    <div class="top6">
+      <ol>
+    <li>
+      <div class="entry2">
+        <span class="title2">강연・토크</span>
+        <span class="pagenum3">234</span>
+      </div>
+      <div class="entry">
+        <span class="title2">비디오 프로그램</span>
+        <span class="pagenum3">264</span>
+      </div>
+      <div class="entry">
+        <span class="title2">음악극 공연</span>
+        <span class="pagenum3">272</span>
+      </div>
+      <div class="entry">
+        <span class="title2">플랫폼 요코하마</span>
+        <span class="pagenum3">276</span>
+      </div>
+    </li> 
+  </ol></div>
+    </div>
+    
+    
+  
+  <div class="페이지7">
+    <div class="top7">  <ol>
+    <li>
+      <div class="title">
+        <span class="title">정현</span>
+      </div>
+    </li>
+  </ol>
+  <ol>
+    <li>
+      <div class="entry">
+        <span class="title2">아방가르드와 걷기 </span>
+        <span class="pagenum3">282</span>
+      </div>
+    </li> 
+  </ol></div> </div>
+      
+      
+
+        <div class="페이지8">
+    <div class="top8">
+      <ol>
+    <li>
+      <div class="title">
+        <span class="title">배은아</span>
+      </div>
+    </li>
+  </ol>
+<ol>
+    <li>
+      <div class="entry">
+        <span class="title2">미래의 과거: 플랫폼 서울</span>
+        <span class="pagenum3">292</span>
+      </div>
+    </li> </ol>
+      </div>
+          </div>
+    </div>
   
   
   
-  <div class="page">
-  <h1>CONTENTS</h1>
-  <table>
-    <thead>
-      <tr>
-  <th>
-    <div class="title">
+
+
+  
+<div class="페이지1">
+    <div class="top1">
+      <ol id="jump">
+    <li>
+      <div class="title">
         <span class="title">Sunjung Kim</span>
       </div>
+      </li>
+  </ol>
+  <ol>
+    <li>
     <div class="entry">
         <span class="title2">Platform: A Tentative Project</span>
         <span class="pagenum2">4</span>
       </div>
+      </li>
+    <li>
     <div class="entry">
         <span class="title2">“I have nothing to say and I am saying it”</span>
         <span class="pagenum">14</span>
       </div>
-    </th>
-        <th>
-    <div class="title">
-        <span class="title">Bartomeu Marí</span>
-      </div>
-    <div class="entry">
-        <span class="title2">“A Theatre Without Theatre” and “Great Theatre of the World”:</span> 
-        <span class="pagenum">30</span></div>
+    </li> 
+  </ol>
+    </div>
+
+  <div class="bottom11">
+    <ol>
+    <li>
       <div class="entry">
-      <span class="title3">Two Experiments with Theatricality in the Arts of the 20th Century</span>
-        </div>
-          </th>
-        <th>
-    <div class="title">
-        <span class="title">Sohyun Park</span>
-      </div>
-    <div class="entry">
-        <span class="title2">The Geopolitics of Informel and the “Acting Artis”:</span>
-        <span class="pagenum">48</span></div>
-        <div class="entry">
-        <span class="title3">The Genealogy of its Conceptual Relocation</span>
-        </div>
-          </th>
-        <th>
-    <div class="title">
-        <span class="title">Fumihiko Sumitomo</span>
-      </div>
-    <div class="entry">
-        <span class="title2">The Ethnographical Turn Occurring in Japanese Post・War Art</span>
-        <span class="pagenum">80</span>
-      </div>
-        </th>
-    <th>
-    <div class="title">
-        <span class="title">Shu Yang</span>
-      </div>
-    <div class="entry">
-        <span class="title2">Performance and Live Art in China</span>
-        <span class="pagenum">92</span>
-      </div>
-      </th>
-      <th>
-      <div class="entry4">
-        <span class="title2">Lectures & Talks</span>
-        <span class="pagenum3">234</span>
-      </div>
-      <div class="entry">
-        <span class="title2">Video Screening Program</span>
-        <span class="pagenum3">264</span>
-      </div>
-      <div class="entry">
-        <span class="title2">Musical Theatre</span>
-        <span class="pagenum3">272</span>
-      </div>
-      <div class="entry">
-        <span class="title2">Platform Yokohama</span>
-        <span class="pagenum3">276</span>
-      </div>
-  </th>
-  <th>
-    <div class="title">
-        <span class="title">Hyun Jung</span>
-      </div>
-    <div class="entry">
-        <span class="title2">The Avant-Garde and Walking </span>
-        <span class="pagenum3">282</span>
-      </div>
-    </th>
-  <th>
-    <div class="title">
-        <span class="title">Enna Bae</span>
-      </div>
-    <div class="entry">
-        <span class="title2">The Future Past: Platform Seoul 2008</span>
-        <span class="pagenum3">292</span>
-      </div>
-    </th>
-    </tr>
-  </thead>
-    <tbody>
-      <tr class="transform">
-        <td>
-          <div>
-          <div class="entry">
         <span class="title4">Gilbert & George</span>
         <span class="pagenum">28</span>
       </div>
@@ -461,9 +660,36 @@
         <span class="title4">John Cage/Kim Soun Gui</span>
         <span class="pagenum">26</span>
       </div>
-        </td>
-        <td>
-        <div class="entry">
+    </li> 
+  </ol></div>
+  </div>
+  
+
+  
+  <div class="페이지2">
+    <div class="top2">
+        <ol>
+    <li>
+      <div class="title">
+        <span class="title">Bartomeu Marí</span>
+      </div>
+      </li>
+  </ol>
+  <ol>
+    <li>
+    <div class="entry">
+        <span class="title2">“A Theatre Without Theatre” and “Great Theatre of the World”:</span> 
+        <span class="pagenum">30</span></div>
+      <div class="entry">
+      <span class="title3">Two Experiments with Theatricality in the Arts of the 20th Century</span>
+        </div>
+    </li> 
+  </ol></div>
+    
+    <div class="bottom22">
+    <ol>
+    <li>
+      <div class="entry">
         <span class="title4">Robert Morris</span>
         <span class="pagenum">46</span>
       </div>
@@ -478,10 +704,38 @@
       <div class="entry">
         <span class="title4">Salvador Dalí</span>
         <span class="pagenum">40</span>
-      </div>  
-        </td>
-        <td>
-          <div class="entry">
+      </div>
+    </li> 
+  </ol></div>
+  </div>
+  
+
+  
+  
+  <div class="페이지3">
+    <div class="top3">
+        <ol>
+    <li>
+      <div class="title">
+        <span class="title">Sohyun Park</span>
+      </div>
+      </li>
+  </ol>
+  <ol>
+    <li>
+    <div class="entry">
+        <span class="title2">The Geopolitics of Informel and the “Acting Artis”:</span>
+        <span class="pagenum">48</span></div>
+        <div class="entry">
+        <span class="title3">The Genealogy of its Conceptual Relocation</span>
+        </div>
+    </li> 
+  </ol></div>
+    
+    <div class="bottom33">
+      <ol>
+    <li>
+      <div class="entry">
         <span class="title4">Yvonne Rainer</span>
         <span class="pagenum">78</span>
       </div>
@@ -497,9 +751,36 @@
         <span class="title4">Allan Kaprow</span>
         <span class="pagenum">72</span>
       </div>
-        </td>
-        <td>
-          <div class="entry">
+    </li> 
+  </ol></div>
+  </div>
+  
+
+  
+  
+  <div class="페이지4">
+    <div class="top4">
+        <ol>
+    <li>
+      <div class="title">
+        <span class="title">Fumihiko Sumitomo</span>
+      </div>
+      </li>
+  </ol>
+  <ol>
+    <li>
+    <div class="entry">
+        <span class="title2">The Ethnographical Turn Occurring in Japanese Post・War Art</span>
+        <span class="pagenum">80</span>
+      </div>
+    
+    </li> 
+  </ol></div>
+
+    <div class="bottom44">
+      <ol>
+    <li>
+      <div class="entry">
         <span class="title4">PLAY</span>
         <span class="pagenum">90</span>
       </div>
@@ -507,9 +788,35 @@
         <span class="title4">Saburo Murakami</span>
         <span class="pagenum">88</span>
       </div>
-          </td>
-        <td>
-          <div class="entry">
+    </li> 
+  </ol></div>
+  </div>
+
+  
+  
+  
+  <div class="페이지5">
+    <div class="top5">
+      <ol>
+    <li>
+      <div class="title">
+        <span class="title">Shu Yang</span>
+      </div>
+      </li>
+  </ol>
+  <ol>
+    <li>
+    <div class="entry">
+        <span class="title2">Performance and Live Art in China</span>
+        <span class="pagenum">92</span>
+      </div>
+    </li> 
+  </ol></div>
+
+    <div class="bottom55">
+      <ol>
+    <li>
+      <div class="entry">
         <span class="title4">Dong Koo Yun</span>
         <span class="pagenum3">230</span>
       </div>
@@ -641,13 +948,75 @@
         <span class="title4">Action in China</span>
         <span class="pagenum">99</span>
       </div>
-          </div>
-          </td>
-      </tr>
-    </tbody>
-  </table>
+    </li> 
+  </ol></div>
   </div>
+  
 
+  
+  
+  <div class="페이지6">
+    <div class="top6">
+      <ol>
+    <li>
+      <div class="entry4">
+        <span class="title2">Lectures & Talks</span>
+        <span class="pagenum3">234</span>
+      </div>
+      <div class="entry">
+        <span class="title2">Video Screening Program</span>
+        <span class="pagenum3">264</span>
+      </div>
+      <div class="entry">
+        <span class="title2">Musical Theatre</span>
+        <span class="pagenum3">272</span>
+      </div>
+      <div class="entry">
+        <span class="title2">Platform Yokohama</span>
+        <span class="pagenum3">276</span>
+      </div>
+    </li> 
+  </ol></div>
+    </div>
+    
+    
+  
+  <div class="페이지7">
+    <div class="top7">  <ol>
+    <li>
+      <div class="title">
+        <span class="title">Hyun Jung</span>
+      </div>
+      </li>
+  </ol>
+<ol>
+    <li>
+    <div class="entry">
+        <span class="title2">The Avant-Garde and Walking </span>
+        <span class="pagenum3">282</span>
+      </div>
+    </li> 
+  </ol></div> </div>
+      
+      
+
+        <div class="페이지88">
+    <div class="top8">
+      <ol>
+    <li>
+      <div class="title">
+        <span class="title">Enna Bae</span>
+      </div>
+      </li>
+  </ol>
+<ol>
+    <li>
+    <div class="entry">
+        <span class="title2">The Future Past: Platform Seoul 2008</span>
+        <span class="pagenum3">292</span>
+      </div>
+    </li> </ol>
+      </div>
+          </div>
 </body>
 </html>
-
