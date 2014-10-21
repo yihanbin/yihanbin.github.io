@@ -4,53 +4,155 @@
   <meta charset="utf-8">
   <title>JS Bin</title>
   <style>
-    body {font-size: 10pt;
-    font-family: nanumgothic;
+body {width: 4300px;
+      height: 500px;
+font-family: NanumGothic;
+font-size: 10pt;}
+    
+    .차례 {position: relative;
+      width: 100%;
+      height: 30%;
+      
     }
     
-    div.page {width: 10000px;
+    h1 {font-size:14pt;
+    text-align:center;
+    position: fixed;
+      margin-left:50%;
     }
     
-    h1 {font-size: 12pt;
-    text-align: right;
-    padding: 10px 50px 0px;}
+    
+    .페이지1, .페이지2, .페이지3, .페이지4, .페이지5{
+      position: relative;
+      float: left;
+      
+      width: 500px;
+      height: 400px;
+      }
+      .페이지5{
+      position: relative;
+      float: left;
+      
+      width: 1100px;
+      height: 400px;
+      }
+    .페이지6, .페이지7{
+      position: relative;
+      float: left;
+      
+      width: 400px;
+      height: 400px;
+      }
+    .페이지8{
+      position: relative;
+      float: left;
+      
+      width: 300px;
+      height: 400px;
+      }
+    
+    
+ 
+  
+    
+    
+    
+   .top1, .top2, .top3, .top4, .top5, .top6, .top7, .top8{
+     position: relative;
+     background-color:pink;
+      width: 500px;
+      height: 100px;
+    }
+.top8{
+     position: relative;
+     background-color:pink;
+      width: 300px;
+      height: 100px;
+    }
+    
+    
+    
+
+   .bottom1, .bottom4{
+     position: absolute;
+     background-color:rgba(255,0,0,0.5);
+      width: 190px;
+      height: 100px;
+   }  
+   .bottom2, .bottom3{
+     position: absolute;
+     background-color:rgba(255,0,0,0.5);
+      width: 240px;
+      height: 150px;
+   }  
+  .bottom5{
+     position: absolute;
+     background-color:rgba(255,0,0,0.5);
+      width: 300px;
+      height: 210px;
+      left:630px;
+     }
+   
+    
+    
+    
+   {text-align:bottom;}
+    
+    
     
     ol {list-style-type: none;
     }
-    ol.transform {transform: rotate(90deg)
-   }
     
-   span.pagenum {float: left;
+
+    .pagenum {float: left;
    margin-right: 15px;
    margin-left: 8px;}
-    span.pagenum2 {float: left;
+    .pagenum2 {float: left;
    margin-right: 15px;
     margin-left: 16px;}
-    span.pagenum3 {float: left;
+    .pagenum3 {float: left;
    margin-right: 10px;}
     
-    span.title {margin-left: 39px;
+    
+    
+    .pagenum {float: left;
+   margin-right: 15px;
+   margin-left: 8px;}
+    
+    .pagenum3 {float: left;
+   margin-right: 10px;}
+    
+    
+    
+    
+      span.title {margin-left: 38px;
     font-weight: bold;}
-    span.title2 {margin-bottom: 8px;}
-    span.title3 {margin-left: 39px;}
+    span.title2 {margin-bottom: 8px;
+    }
     span.title3 {margin-left: 39px;}
     span.title4 {font-weight: bold;
-      margin-left: 38x;}
+      margin-left: 3px;}
     
-    div.title1 {margin-top: 100px;}
-    div.title {margin-top: 60px;}
     
-    div.entry {margin-top: 7px;}
-    div.entry2 {margin-top: 60px;
-    }
+   div>ol{line-height: 25px;}
+    
+
+    
+    
+  .bottom1, .bottom2, .bottom3, .bottom4, .bottom5 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
     
     
   </style>
 </head>
 <body>
-<div class="page">
-  <h1>차례</h1>
-<ol>
+  <div class="차례"><h1>차례</h1></div>
+  
+  <div class="페이지1">
+    <div class="top1">
+      <ol>
     <li>
       <div class="title1">
         <span class="title">김선정</span>
@@ -71,11 +173,12 @@
       </div>
     </li> 
   </ol>
-  
-  
-  <ol class="transform">
+    </div>
+
+  <div class="bottom1">
+    <ol>
     <li>
-      <div class="entry2">
+      <div class="entry">
         <span class="title4">길버트 & 조지</span>
         <span class="pagenum">28</span>
       </div>
@@ -84,10 +187,14 @@
         <span class="pagenum">26</span>
       </div>
     </li> 
-  </ol>
+  </ol></div>
+  </div>
   
+
   
-    <ol>
+  <div class="페이지2">
+    <div class="top2">
+        <ol>
     <li>
       <div class="title">
         <span class="title">바르또 마리</span>
@@ -103,32 +210,37 @@
       <span class="title3">20세기 미술안에서의 연극성에 대한 두 가지 실험</span>
         </div>
     </li> 
-  </ol>
-  
-  
- <ol>
+  </ol></div>
+    
+    <div class="bottom2">
+    <ol>
     <li>
-      <div class="entry2">
-        <span class="title4">살바도르 달리</span>
+      <div class="entry">
+        <span class="title4">로버트 모리스</span>
         <span class="pagenum">46</span>
       </div>
       <div class="entry">
-        <span class="title4">다비드 라멜라스</span>
+        <span class="title4">브루스 나우만</span>
         <span class="pagenum">44</span>
       </div>
       <div class="entry">
-        <span class="title4">브루스 나우만</span>
+        <span class="title4">다비드 라멜라스</span>
         <span class="pagenum">42</span>
       </div>
       <div class="entry">
-        <span class="title4">로버트 모리스</span>
+        <span class="title4">살바도르 달리</span>
         <span class="pagenum">40</span>
       </div>
     </li> 
-  </ol>
+  </ol></div>
+  </div>
+  
+
   
   
-    <ol>
+  <div class="페이지3">
+    <div class="top3">
+        <ol>
     <li>
       <div class="title">
         <span class="title">박소현</span>
@@ -137,19 +249,19 @@
   </ol>
   <ol>
     <li>
-      <div class="entry">
+          <div class="entry">
         <span class="title2">양포르엘의 지정학과 ‘행동하는 화가’:</span>
         <span class="pagenum">48</span></div>
         <div class="entry">
         <span class="title3">그 개념적 재배치의 계보</span>
         </div>
     </li> 
-  </ol>
-  
-  
-  <ol>
+  </ol></div>
+    
+    <div class="bottom3">
+      <ol>
     <li>
-      <div class="entry2">
+      <div class="entry">
         <span class="title4">이본느 라이너</span>
         <span class="pagenum">78</span>
       </div>
@@ -166,10 +278,15 @@
         <span class="pagenum">72</span>
       </div>
     </li> 
-  </ol>
+  </ol></div>
+  </div>
+  
+
   
   
-    <ol>
+  <div class="페이지4">
+    <div class="top4">
+        <ol>
     <li>
       <div class="title">
         <span class="title">수미토모 후미히코</span>
@@ -183,12 +300,12 @@
         <span class="pagenum">80</span>
       </div>
     </li> 
-  </ol>
-      
-  
-  <ol>
+  </ol></div>
+
+    <div class="bottom4">
+      <ol>
     <li>
-      <div class="entry2">
+      <div class="entry">
         <span class="title4">플레이</span>
         <span class="pagenum">90</span>
       </div>
@@ -197,10 +314,15 @@
         <span class="pagenum">88</span>
       </div>
     </li> 
-  </ol>
+  </ol></div>
+  </div>
+
   
   
-  <ol>
+  
+  <div class="페이지5">
+    <div class="top5">
+      <ol>
     <li>
       <div class="title">
         <span class="title">슈 양</span>
@@ -214,12 +336,12 @@
         <span class="pagenum">92</span>
       </div>
     </li> 
-  </ol>
-  
-  
-  <ol>
+  </ol></div>
+
+    <div class="bottom5">
+      <ol>
     <li>
-      <div class="entry2">
+      <div class="entry">
         <span class="title4">윤동구</span>
         <span class="pagenum3">230</span>
       </div>
@@ -352,10 +474,15 @@
         <span class="pagenum">99</span>
       </div>
     </li> 
-  </ol>
+  </ol></div>
+  </div>
+  
+
   
   
-  <ol>
+  <div class="페이지6">
+    <div class="top6">
+      <ol>
     <li>
       <div class="entry2">
         <span class="title2">강연・토크</span>
@@ -374,10 +501,13 @@
         <span class="pagenum3">276</span>
       </div>
     </li> 
-  </ol>
+  </ol></div>
+    </div>
+    
+    
   
-  
-  <ol>
+  <div class="페이지7">
+    <div class="top7">  <ol>
     <li>
       <div class="title">
         <span class="title">정현</span>
@@ -391,7 +521,12 @@
         <span class="pagenum3">282</span>
       </div>
     </li> 
-  </ol>
+  </ol></div> </div>
+      
+      
+
+        <div class="페이지8">
+    <div class="top8">
       <ol>
     <li>
       <div class="title">
@@ -399,13 +534,14 @@
       </div>
     </li>
   </ol>
-  <ol>
+<ol>
     <li>
       <div class="entry">
         <span class="title2">미래의 과거: 플랫폼 서울</span>
         <span class="pagenum3">292</span>
       </div>
-    </li> 
-</div>
+    </li> </ol>
+      </div>
+          </div>
 </body>
 </html>
