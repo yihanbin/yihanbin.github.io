@@ -22,7 +22,8 @@
   div {text-align: left;}
  div.title {margin-bottom: 20px;}
     
-    .entry {margin-top: 9px;}
+    .entry {margin-top: 9px;
+    }
   
   .pagenum {float: left;
    margin-right: 15px;
@@ -44,9 +45,11 @@
   th {font-weight: normal;
   }
   
+  .transform > td {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
   
-  .transform {transform: rotate(90deg);
-   }
     
   </style>
   
@@ -149,8 +152,9 @@
     </tr>
   </thead>
     <tbody>
-      <tr>
+      <tr class="transform">
         <td>
+         
           <div class="entry">
         <span class="title4">길버트 & 조지</span>
         <span class="pagenum">28</span>
@@ -339,6 +343,7 @@
         <span class="title4">액션 인 차이나</span>
         <span class="pagenum">99</span>
       </div>
+          
           </td>
       </tr>
     </tbody>
@@ -445,8 +450,9 @@
     </tr>
   </thead>
     <tbody>
-      <tr>
+      <tr class="transform">
         <td>
+          <div>
           <div class="entry">
         <span class="title4">Gilbert & George</span>
         <span class="pagenum">28</span>
@@ -635,6 +641,7 @@
         <span class="title4">Action in China</span>
         <span class="pagenum">99</span>
       </div>
+          </div>
           </td>
       </tr>
     </tbody>
@@ -643,3 +650,4 @@
 
 </body>
 </html>
+
