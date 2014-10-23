@@ -3,7 +3,15 @@
 <head>
   <meta charset="utf-8">
   <title>contents</title>
-<style>
+  <script>
+  window.addEventListener('scroll', function(e) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+      var content = document.querySelector('.content');
+      document.body.appendChild(content.cloneNode(true));
+    }
+  });
+  </script>
+  <style>
   
   body {width: 8870px;
       height: 500px;
