@@ -4,76 +4,7 @@
   <meta charset="utf-8">
   <title>JS Bin</title>
   <style>
-     
-    
-   @media print {body{background-color:white; 
-       font-size:8pt;
-      }
-    img.영화장면, img.네장, img.세장, img.한장, img.포스터{
-        display:none;}
-        
-    .지아장커, .영어{display:none;}
-    
-   ul.수상내역{text-align:center;
-     color:#777b7f;
-     margin-left:0px;
-   margin-bottom:0;}
-    
-        span.작게{font-size: 7pt;
-      }
-    li.수상내역{display:inline-block;
-    margin-left:10px;
-      margin-right:10px;
-     font-size:7pt;
-      line-height:17px;
-      }
-     
-     div.제목{
-    text-align:center;
-        }
-     
-       div.줄거리 {
-      line-height:17px;
-    margin-right:70px;
-          margin-left:70px;
-       margin-bottom:10px;
-       font-size:8pt;
-    }
-    
-    h2.줄거리{line-height:20px;
-      }
 
-   li{
-    line-height:15px;
-    display:inline-block;
-    margin-right:5px;
-    margin-left:5px;
-     
-   }
-   
-    ul.주요정보{text-align:left;
-    float:center;}
-     
-     li.공간{
-    margin-bottom:25px;
-      margin-right:30px;
-      margin-left:30px;
-      }
-
-    h3{font-size:12pt;
-    font-family:Nanum Myeongjo;
-    text-align:left;}
-    h4{font-size:8pt;
-    margin-bottom:3px;
-    text-align:left;}
-    
-p.copyright{margin-top:20px;
-    font-size:7pt;}
-   }
-    
-    
-    
-    
     body{background-color:#e2e7ed; 
      max-width: 800px;
       margin-left:auto;
@@ -223,6 +154,96 @@ p.copyright{margin-top:20px;
       margin-top:50px;
     text-align:right;}
     
+    
+    
+    
+    @media print{
+      body{background-color:white; 
+       font-size:8pt;
+      }
+    img.네장, img.세장, img.한장, img.포스터{
+        display:none;}
+        
+    img.상해전기{width:200px;}
+    
+    img.영화장면{width:300px;}
+    
+    div.영화장면{text-align:center;}
+    
+    .지아장커, .영어{display:none;}
+    
+   ul.수상내역{text-align:center;
+     color:#777b7f;
+     margin-left:0px;
+   margin-bottom:0;}
+    
+        span.작게{font-size: 7pt;
+      }
+    li.수상내역{display:inline-block;
+    margin-left:10px;
+      margin-right:10px;
+     font-size:7pt;
+      line-height:17px;
+      }
+     
+     div.제목{
+    text-align:center;
+       margin-bottom:20px;
+       margin-top:40px;
+        }
+     
+       div.줄거리 {
+      line-height:17px;
+       font-size:8pt;
+         padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+      left: 5%;
+      right: 5%;
+      top: 1140px;
+      margin-right:70px;
+          margin-left:70px;
+       margin-bottom:30px;
+         margin-top:30px;
+    }
+    
+    h2.줄거리{line-height:25px;
+      }
+
+   li{
+    line-height:15px;
+    display:inline-block;
+    margin-right:5px;
+    margin-left:5px;
+     
+   }
+   
+    ul.주요정보{text-align:left;
+    float:center;}
+     
+     li.공간{
+    margin-bottom:25px;
+      margin-right:30px;
+      margin-left:30px;
+      }
+
+    h3{font-size:12pt;
+    font-family:Nanum Myeongjo;
+    text-align:left;}
+    h4{font-size:8pt;
+    margin-bottom:3px;
+    text-align:left;}
+    
+p.copyright{margin-top:20px;
+    font-size:7pt;
+}
+    }
+    
+    
   </style>
 </head>
 <body>
@@ -244,7 +265,7 @@ p.copyright{margin-top:20px;
   <div class="제목">
   <h2 class="소제목"><span class="normal">17人의 소설같은</span> 기억의 도시</h2>
   <h3 class="지아장커">지아장커 작품</h3>
-<h1><img  src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/상해전기-1.png" alt="상해전기"></h1>
+<h1><img class="상해전기" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/상해전기-1.png" alt="상해전기"></h1>
 <h3 class="영어">I Wish I Know</h3>
     </div>
  
@@ -324,5 +345,6 @@ p.copyright{margin-top:20px;
 </div>
 </body>
 </html>
+
 
 
