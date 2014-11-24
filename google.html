@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Inbox - Primary</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        header, section.pane {
+            padding: 1em 1em 0.6em 1em;
+        }
+
+        header {
+            height: 52px;
+            background-color: #DA4336;
+            color: white;
+            vertical-align: top;
+        }
+
+        header .menu {
+            display: inline-block;
+            width: 50px;
+        }
+
+        header h1 {
+            display: inline;
+            font-size: 1rem;
+            font-weight: normal;
+            vertical-align: top;
+        }
+
+        section.side {
+            position: absolute;
+            top: 52px;
+            left: 0;
+            width: 64px;
+            bottom: 0;
+            background-color: white;
+        }
+        section.mainarea {
+            position: absolute;
+            top: 52px;
+            left: 64px;
+            right: 0;
+            bottom: 0;
+            background-color: white;
+            box-shadow: -1px 0px 6px #CCC;
+        }
+
+        section.list,
+        section.content {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            background-color: white;
+            box-shadow: -1px 0px 6px #CCC;
+            overflow-y: scroll;
+        }
+
+        section.list {
+            width: 40%;
+            left: 0;
+            z-index: 1;
+        }
+        section.content {
+            width: 60%;
+            right: 0;
+        }
+      
+      
+      
+        li{
+          list-style-type:none;
+        margin-left:0;
+          
+        }
+      h3{
+        margin-bottom:0;
+      }
+      div.blue, .green, .yellow{
+        float: right;
+        color:white;
+        
+      div.blue{
+        background-color:#4986e7;
+      }
+      div.green{
+        background-color:#16a765;
+      }
+      div.yellow{
+        background-color:#fa5034;
+      }
+    </style>
+</head>    
+<body>
+    <header>
+        <div class="menu">
+            <img src="imgs/ic_menu_24px.svg">
+        </div>
+        <h1>Primary</h1>
+    </header>
+
+    <section class="side pane">
+      
+    </section>
+    <section class="mainarea">
+        <section class="list pane">
+            <ul>
+                <li>
+                  <img src="" alt="">
+                  <h3>social</h3>
+                  <div>Google+</div>
+              <div class="blue">1 new</div>
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>Promotions</h3>
+              <div>Zagat, Google Offers</div>
+              <div class="green">2 new</div>  
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>Updates</h3>
+                  <div>Google Play</div>
+              <div class="yellow">1 new</div>
+              </li>
+              <li>
+              <img src="" alt="">
+                  <h3>이의진</h3>
+                <div>ㅋㅋㅋ알게또</div>
+              <div>예약해놓고싶다</div>
+              <div>1:45 PM</div>
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>이승주</h3>
+                  <div>너는 아니자너 ㅎㅎ</div>
+              <div>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ근데 고등어는 잘해주는데</div>
+              <div>1:39 PM</div>
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>여동규</h3>
+                  <div>실망햇는데</div>
+              <div>너무하다</div>
+                  <div>Sep 29</div>
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>하유정</h3>
+                  <div>준비하고 보내주겜ㅎㅎ</div>
+              <div>기다려바</div>
+                  <div>Sep 29</div>
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>김채연</h3>
+                  <div>개조아</div>
+              <div>저 멍청이인가</div>
+                  <div>Sep 29</div>
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>최수진</h3>
+                  <div>감사함다</div>
+              <div>많이도 찍었구만ㅋㅋㅋㅋㅋㅋ</div>
+              <div>Sep 29</div>
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>이상각</h3>
+                  <div>맛있겠다~~~</div>
+              <div>ㅋㅋㅋㅋㅋㅋㅋㅋㅋ</div>
+              <div>Sep 29</div></li>
+                <li>
+              <img src="" alt="">
+                  <h3>전영미</h3>
+                  <div>무릎 진짜아프다ㅠㅠ</div>
+              <div>이주일연속으로ㅠㅠ</div>
+              </li>
+            </ul>
+        </section>
+        <section class="content pane">
+            <ul>
+              <li>Board game night?</li>  
+              <li>
+              <img src="" alt="">
+                  <h3>김채연</h3>
+                <div>할ㄹ러할하러헐 졸귀다 근데 언제받아? ...</div>
+              <div>Sep 29</div>
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>엄다은</h3>
+                  <div>시벌 유화다가져가냨ㅋㅋㅋㅋㅋㅋ야 나오늘못감 작업 개못함 ...</div>
+              <div>Sep 29</div>
+              </li>
+                <li>
+              <img src="" alt="">
+                  <h3>임세빈</h3>
+                  <div>장식품같이 액자처럼 판으로작업해서 퍼즐같이만드는거얌</div>
+                  <div>to me</div>
+              <div>Sep 29 <span>View details</span></div>
+              </li>
+            </ul>
+        </section>
+    </section>
+</body>
+</html>
+
