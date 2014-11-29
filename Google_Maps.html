@@ -7,8 +7,7 @@
   <style>
     body{
       font-family:nanumgothic, sanserif; 
-      font-size:14px;
-      line-height:25px;
+      font-size:13px;
       color:#666666;
     }
     
@@ -20,15 +19,16 @@
     }
     
     .링크, .시간{
-      color:white;
+      color:#99b3e8;
     }
     
     .링크{
       top:0;
       height:40px;
     background-color:#4688f1;
-     
     }
+    
+    
     .경로{
      padding:10px 70px;
       top:60px;
@@ -36,17 +36,26 @@
     background-color:#4688f1;
     }
     .경로>.크게{
-      color:white;
+      color:#99b3e8;
     }
     .경로>i{
-      color:white;
+      color:#99b3e8;
     }
+    
+    
     .시간{
-      padding:12px 70px;
+      padding:17px 70px;
       top:150px;
       height:30px;
     background-color:#366ad3;
     }
+    .시간>.option{
+      float:right;
+    }
+    .시간>.depart{
+      padding-left:30px;
+    }
+    
     
     section{
     padding:70px;
@@ -61,10 +70,14 @@
       list-style-type:none;
       padding-left:0;
     }
+    li{
+      padding-bottom:13px;
+    }
     
     .크게{
-      font-size:12pt;
+      font-size:11pt;
       color:black;
+      padding-left:30px;
     }
     .크게2{
       font-size:12pt;
@@ -86,9 +99,14 @@
       padding-top:10px;
     
     .연회색{
-      color:#9d9d9d;
+      padding-left:30px;
+      color:#ababab;
     }
+    .왼쪽공간{
+      padding-left:30px;
+    } 
     
+      
     
     </style>
   
@@ -111,8 +129,8 @@
 </div>
   <div class="시간">
     <i class="fa fa-list-ul fa-lg"></i>
-    <span>Depart at 4:09 PM</span>
-    <span>OPTIONS</span>
+    <span class="depart">Depart at 4:09 PM</span>
+    <span class="option">OPTIONS</span>
     </div>
     </header>
   
@@ -121,7 +139,7 @@
     <ul class="종합1">
       <li><i class="fa fa-plane fa-lg"></i></li>
       <li class="크게"><span class="두께">4:09 - 5:35 PM</span></li>
-      <li>
+      <li class="왼쪽공간">
         <i class="fa fa-child fa-lg"></i>
       &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
       <i class="fa fa-bus fa-lg"></i>
