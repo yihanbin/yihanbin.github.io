@@ -7,6 +7,9 @@
   <style>
     body{
       font-family:nanumgothic, sanserif; 
+      font-size:14px;
+      line-height:25px;
+      color:#666666;
     }
     
     .링크, .경로, .시간, section{
@@ -15,27 +18,38 @@
     right:0;
     padding:10px;
     }
+    
+    .링크, .시간{
+      color:white;
+    }
+    
     .링크{
       top:0;
-      height:50px;
-    background-color:pink;
+      height:40px;
+    background-color:#4688f1;
     }
     .경로{
-      top:70px;
-      height:80px;
-    background-color:blue;
+      top:60px;
+      height:70px;
+    background-color:#4688f1;
+    }
+    .경로>.크게{
+      color:white;
+    }
+    .경로>i{
+      color:white;
     }
     .시간{
-      top:170px;
-      height:40px;
-    background-color:yellow;
+      top:150px;
+      height:30px;
+    background-color:#366ad3;
     }
     
     section{
     height:100%;
       overflow:scroll;
-      top:230px;
-      background-color:pink;
+      top:200px;
+      background-color:white;
       padding-top:0;
     }
     
@@ -44,10 +58,29 @@
       padding-left:0;
     }
     
+    .크게{
+      font-size:12pt;
+      color:black;
+    }
+    .크게2{
+      font-size:12pt;
+      color:black;
+    float:right;
+    }
     
+    .두께{
+      font-weight:bold;
+    }
     
+    .종합1, .종합2, .종합3, .종합4, .종합5{
+      padding-bottom:20px;
+      padding-top:10px;
+      border-bottom:2px solid #f1f1f1;
+    }
     
-    
+    .연회색{
+      color:#9d9d9d;
+    }
     
     
     </style>
@@ -56,21 +89,21 @@
 <body>
 <header>
         <div class="링크">
-            <i class="fa fa-arrow-left"></i>
-          <i class="fa fa-car"></i>
-          <i class="fa fa-plane"></i>
-          <i class="fa fa-child"></i>
+            <i class="fa fa-arrow-left fa-lg"></i>
+          <i class="fa fa-car fa-lg"></i>
+          <i class="fa fa-plane fa-lg"></i>
+          <i class="fa fa-child fa-lg"></i>
         </div>
   <div class="경로">  
-    <i class="fa fa-map-marker"></i>
-    <i class="fa fa-ellipsis-v"></i>
-    <i class="fa fa-map-marker"></i>
-  <span>계원예술대학교</span>
-  <span>신사동가로수길</span>
-    <i class="fa fa-arrows-v"></i>
+    <i class="fa fa-map-marker fa-lg"></i>
+    <i class="fa fa-ellipsis-v fa-lg"></i>
+    <i class="fa fa-map-marker fa-lg"></i>
+  <span class="크게">계원예술대학교</span>
+  <span class="크게">신사동가로수길</span>
+    <i class="fa fa-arrows-v fa-lg"></i>
 </div>
   <div class="시간">
-    <i class="fa fa-list-ul"></i>
+    <i class="fa fa-list-ul fa-lg"></i>
     <span>Depart at 4:09 PM</span>
     <span>OPTIONS</span>
     </div>
@@ -79,161 +112,161 @@
   
   <section>
     <ul class="종합1">
-      <li><i class="fa fa-plane"></i></li>
-      <li>4:09 - 5:35 PM</li>
+      <li><i class="fa fa-plane fa-lg"></i></li>
+      <li class="크게"><span class="두께">4:09 - 5:35 PM</span></li>
       <li>
-        <i class="fa fa-child"></i>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+        <i class="fa fa-child fa-lg"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         1-1
       </span>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+     &nbsp; <i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         441
       </span>
       </li>
-      <li>4:25 PM from 계원예술대학교</li>
-      <li><i class="fa fa-child"></i>
+      <li class="연회색">4:25 PM from 계원예술대학교</li>
+      <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
       <span>Every 10 min</span>
       </li>
-      <li>1 hr 25 min</li>
+      <li class="크게2"><span class="두께">1</span> hr <span class="두께">25</span> min</li>
       </ul>
     
     <ul class="종합2">
-      <li><i class="fa fa-plane"></i></li>
-      <li>4:09 - 5:41 PM</li>
+      <li><i class="fa fa-plane fa-lg"></i></li>
+      <li class="크게"><span class="두께">4:09 - 5:41 PM</span></li>
       <li>
-        <i class="fa fa-child"></i>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+        <i class="fa fa-child fa-lg"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         1-1
       </span>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+     &nbsp; <i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         4318
       </span>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+     &nbsp; <i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         9404
       </span>
       </li>
-      <li>4:25 PM from 계원예술대학교</li>
-      <li><i class="fa fa-child"></i>
+      <li class="연회색">4:25 PM from 계원예술대학교</li>
+      <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
       <span>Every 12 min</span></li>
-      <li>1 hr 31 min</li>
+      <li class="크게2"><span class="두께">1</span> hr <span class="두께">31</span> min</li>
       </ul>
     
     <ul class="종합3">
-      <li><i class="fa fa-plane"></i></li>
-      <li>4:09 - 5:49 PM</li>
+      <li><i class="fa fa-plane fa-lg"></i></li>
+      <li class="크게"><span class="두께">4:09 - 5:49 PM</span></li>
       <li>
-       <i class="fa fa-child"></i>
-     <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+       <i class="fa fa-child fa-lg"></i>
+     &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         51
       </span>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         540
       </span>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         148
       </span>
       </li>
-      <li>4:22 PM from 계원예술대학교</li>
-      <li><i class="fa fa-child"></i>
+      <li class="연회색" class="연회색">4:22 PM from 계원예술대학교</li>
+      <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
       <span>Every 12 min</span></li>
-      <li>1 hr 39 min</li>
+      <li class="크게2"><span class="두께">1</span> hr <span class="두께">39</span> min</li>
       </ul>
     
     <ul class="종합4">
-      <li><i class="fa fa-plane"></i></li>
-      <li>4:09 - 5:47 PM</li>
+      <li><i class="fa fa-plane fa-lg"></i></li>
+      <li class="크게"><span class="두께">4:09 - 5:47 PM</span></li>
       <li>
-        <i class="fa fa-child"></i>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+        <i class="fa fa-child fa-lg"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         51
       </span>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         3030
       </span>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         145
       </span>
       </li>
-      <li>4:22 PM from 계원예술대학교</li>
-      <li>
+      <li class="연회색">4:22 PM from 계원예술대학교</li>
+      <li class="연회색" class="연회색">
         <i class="fa fa-child"></i>
       <span>10 min</span>
       <span>Every 20 min</span>
       </li>
-      <li>1 hr 38 min</li>
+      <li class="크게2"><span class="두께">1</span> hr <span class="두께">38</span> min</li>
       </ul>
     
     <ul class="종합5">
       <li>
-        <i class="fa fa-plane"></i></li>
-      <li>4:09 - 5:47 PM</li>
+        <i class="fa fa-plane fa-lg"></i></li>
+      <li class="크게"><span class="두께">4:09 - 5:47 PM</span></li>
       <li>
-       <i class="fa fa-child"></i>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+       <i class="fa fa-child fa-lg"></i>
+     &nbsp; <i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         51
       </span>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         540
       </span>
       </li>
-      <li>4:23 PM from 계원예술대학교</li>
-      <li><i class="fa fa-child"></i>
+      <li class="연회색">4:23 PM from 계원예술대학교</li>
+      <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
       <span>Every 20 min</span></li>
-      <li>1 hr 38 min</li>
+      <li class="크게2"><span class="두께">1</span> hr <span class="두께">38</span> min</li>
       </ul>
     
     <ul class="종합6">
       <li>
-        <i class="fa fa-plane"></i></li>
-      <li>4:09 - 5:47 PM</li>
+        <i class="fa fa-plane fa-lg"></i></li>
+      <li class="크게"><span class="두께">4:09 - 5:47 PM</span></li>
       <li>
-        <i class="fa fa-child"></i>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+        <i class="fa fa-child fa-lg"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         51
       </span>
-      <i class="fa fa-angle-right"></i>
-      <i class="fa fa-bus"></i>
+      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
+      <i class="fa fa-bus fa-lg"></i>
       <span>
         3030
       </span>
       </li>
-      <li>4:23 PM from 계원예술대학교</li>
-      <li><i class="fa fa-child"></i>
+      <li class="연회색">4:23 PM from 계원예술대학교</li>
+      <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
       <span>Every 20 min</span></li>
-      <li>1 hr 38 min</li>
+      <li class="크게2"><span class="두께">1</span> hr <span class="두께">38</span> min</li>
       </ul>
     </section>
 </body>
