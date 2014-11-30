@@ -9,6 +9,7 @@
       font-family:nanumgothic, sanserif; 
       font-size:13px;
       color:#666666;
+      background-color:white;
     }
     
     .링크, .경로, .시간, section{
@@ -18,14 +19,11 @@
     padding:10px;
     }
     
-    .링크, .시간{
-      color:#99b3e8;
-    }
-    
     .링크{
       top:0;
       height:30px;
     background-color:#4688f1;
+     color: #a9c8f8;
     }
     .이동수단>li{
       display:inline-block;
@@ -56,18 +54,16 @@
     .크게계원{
       padding-top:5px;
       font-size:11pt;
-      color:white;
-      border-bottom:2px solid #99b3e8;  
+      color:#c7dafa;
+      border-bottom:2px solid #6ca0f3;  
     }
     .크게신사{
       padding-top:10px;
       font-size:11pt;
-      color:white;
+      color:#c7dafa;
     }
     
-    .경로>i{
-      color:#99b3e8;
-    }
+    
     .위치아이콘{
       position:absolute;
       top:0;
@@ -84,9 +80,10 @@
     }
     .화살표두개{
      position:absolute; 
-      color:#99b3e8;
+      color:#a9c8f8;
       right:74px;
       top:25px;
+      
     }
     
     
@@ -97,6 +94,7 @@
       top:150px;
       height:30px;
     background-color:#366ad3;
+      color:#c7dafa;
     }
     .시간>.option{
       float:right;
@@ -104,15 +102,17 @@
     .시간>.depart{
       padding-left:30px;
     }
+    .목록{
+      color:#6ca0f3; 
+    }
     
     
     section{
-    padding:70px;
-      height:100%;
+    padding:0 70px;
+      height:425px;
       overflow:scroll;
       top:200px;
       background-color:white;
-      padding-top:0;
       position:fixed;
     }
     .blue, .blue2, .green, .brown, .red{
@@ -146,6 +146,7 @@
     }
     li{
       padding-bottom:13px;
+      
     }
     
     .크게{
@@ -157,7 +158,7 @@
       position:absolute;
       font-size:12pt;
       color:black;
-     right:80px;
+     right:70px;
     }
      .비행기1>.크게2{
        top:20px;
@@ -194,19 +195,11 @@
       
     }
     .비행기6{
-       padding-bottom:5px;
       padding-top:20px;
     
-    .연회색{
-      padding-left:30px;
-      color:#ababab;
-    }
     
-    
-     
       
-      
-    
+
     </style>
 </head>
 <body>
@@ -224,10 +217,11 @@
    <li> <i class="fa fa-map-marker fa-lg"></i></li></ul>
  <ul class="글자"><li class="크게계원">계원예술대학교</li>
  <li class="크게신사">신사동가로수길</li></ul>
-  <ul class="화살표두개"><li>  <i class="fa fa-arrows-v fa-lg"></i></li></ul>
+  <ul class="화살표두개"><li> 
+   <i class="fa fa-arrows-v fa-lg"></i></li></ul>
 </div>
   <div class="시간">
-    <i class="fa fa-list-ul fa-lg"></i>
+    <span class="목록"><i class="fa fa-list-ul fa-lg"></i></span>
     <span class="depart">Depart at 4:09 PM</span>
     <span class="option">OPTIONS</span>
     </div>
@@ -239,7 +233,7 @@
     <div>
       <i class="fa fa-plane fa-lg"></i>
       </div>
-    <div><ul><li class="크게"><span class="두께">4:09 - 5:35 PM</span></li>
+    <div class="이동"><ul><li class="크게"><span class="두께">4:09 - 5:35 PM</span></li>
       <li><i class="fa fa-child fa-lg"></i>
       &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
       <i class="fa fa-bus fa-lg"></i>
@@ -248,7 +242,7 @@
       </span>
     &nbsp; <i class="fa fa-angle-right"></i>&nbsp;
       <i class="fa fa-bus fa-lg"></i>
-      <span class="blue2">
+      <span class="blue">
         441
       </span>
       </li>
