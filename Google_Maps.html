@@ -19,7 +19,7 @@
     }
     
     .링크, .시간{
-      color:#99b3e8;
+      color:white;
     }
     
     .링크{
@@ -27,14 +27,21 @@
       height:30px;
     background-color:#4688f1;
     }
-    .이동수단{
+    .이동수단>li{
       display:inline-block;
     }
     .화살표{
       color:white;
       padding-left:15px;
+       padding-right:75px;
     }
-   
+    .비행기{
+      padding-left:20px;
+       padding-right:20px;
+      color:white;
+    }
+    
+    
     
     
     
@@ -44,20 +51,18 @@
       height:100px;
     background-color:#4688f1;
     }
-    .경로>.크게, .크게계원{
-      color:#99b3e8;
-    }
+    .경로>.크게{
+      color:white;}
     .크게계원{
       padding-top:5px;
       font-size:11pt;
-      
+      color:white;
       border-bottom:2px solid #99b3e8;  
     }
     .크게신사{
       padding-top:10px;
       font-size:11pt;
-      
-      color:#99b3e8;
+      color:white;
     }
     
     .경로>i{
@@ -70,8 +75,7 @@
       left:74px;
       text-align:center;
       color:white;
-      
-    }
+     }
     .글자{
       position:absolute;
       padding-left:0px;
@@ -143,24 +147,49 @@
     .크게{
       font-size:11pt;
       color:black;
-      padding-left:30px;
+      
     }
     .크게2{
+      position:absolute;
       font-size:12pt;
       color:black;
-    float:right;
+     right:80px;
     }
+     .비행기1>.크게2{
+       top:20px;
+     } 
+    .비행기2>.크게2{
+       top:215px;
+     } 
+    .비행기3>.크게2{
+       top:415px;
+     } 
+    .비행기4>.크게2{
+       top:620px;
+     } 
+    .비행기5>.크게2{
+       top:820px;
+     } 
+    .비행기6>.크게2{
+       top:1020px;
+     } 
+    
+    
+    
+    
+    
     
     .두께{
       font-weight:bold;
     }
     
-    .종합1, .종합2, .종합3, .종합4, .종합5{
+    .비행기1, .비행기2, .비행기3, .비행기4, .비행기5{
       padding-bottom:20px;
-      padding-top:10px;
+      padding-top:20px;
       border-bottom:2px solid #f1f1f1;
+      
     }
-    .종합6{
+    .비행기6{
        padding-bottom:20px;
       padding-top:10px;
     
@@ -168,9 +197,7 @@
       padding-left:30px;
       color:#ababab;
     }
-    .왼쪽공간{
-      padding-left:30px;
-    } 
+    
     
      
       
@@ -204,9 +231,11 @@
   
   
   <section>
-    <ul class="종합1">
-      <li><i class="fa fa-plane fa-lg"></i></li>
-      <li class="크게"><span class="두께">4:09 - 5:35 PM</span></li>
+    <div class="비행기1">
+    <div>
+      <i class="fa fa-plane fa-lg"></i>
+      </div>
+    <div><ul><li class="크게"><span class="두께">4:09 - 5:35 PM</span></li>
       <li>
         <i class="fa fa-child fa-lg"></i>
       &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
@@ -224,13 +253,15 @@
       <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
       <span>Every 10 min</span>
-      </li>
-      <li class="크게2"><span class="두께">1</span> hr <span class="두께">25</span> min</li>
-      </ul>
+      </li></ul>
+    </div>
+      <div class="크게2"><span class="두께">1</span> hr <span class="두께">25</span> min
+      </div></div>
     
-    <ul class="종합2">
-      <li><i class="fa fa-plane fa-lg"></i></li>
-      <li class="크게"><span class="두께">4:09 - 5:41 PM</span></li>
+    <div class="비행기2">
+      <div>
+      <i class="fa fa-plane fa-lg"></i></div>
+      <div class="크게"><ul><li><span class="두께">4:09 - 5:41 PM</span></li>
       <li>
         <i class="fa fa-child fa-lg"></i>
       &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
@@ -252,13 +283,15 @@
       <li class="연회색">4:25 PM from 계원예술대학교</li>
       <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
-      <span>Every 12 min</span></li>
-      <li class="크게2"><span class="두께">1</span> hr <span class="두께">31</span> min</li>
-      </ul>
+      <span>Every 12 min</span></li></ul></div>
+      <div class="크게2"><span class="두께">1</span> hr <span class="두께">31</span> min</div>
+      </div>
     
-    <ul class="종합3">
-      <li><i class="fa fa-plane fa-lg"></i></li>
-      <li class="크게"><span class="두께">4:09 - 5:49 PM</span></li>
+    <div class="비행기3">
+      <div>
+      <i class="fa fa-plane fa-lg"></i>
+        </div>
+      <div class="크게"><ul><li><span class="두께">4:09 - 5:49 PM</span></li>
       <li>
        <i class="fa fa-child fa-lg"></i>
      &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
@@ -280,13 +313,14 @@
       <li class="연회색">4:22 PM from 계원예술대학교</li>
       <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
-      <span>Every 12 min</span></li>
-      <li class="크게2"><span class="두께">1</span> hr <span class="두께">39</span> min</li>
-      </ul>
+      <span>Every 12 min</span></li></ul></div>
+      <div class="크게2"><span class="두께">1</span> hr <span class="두께">39</span> min</div>
+      </div>
     
-    <ul class="종합4">
-      <li><i class="fa fa-plane fa-lg"></i></li>
-      <li class="크게"><span class="두께">4:09 - 5:47 PM</span></li>
+    <div class="비행기4">
+      <div>
+     <i class="fa fa-plane fa-lg"></i></div>
+      <div class="크게"><ul> <li><span class="두께">4:09 - 5:47 PM</span></li>
       <li>
         <i class="fa fa-child fa-lg"></i>
       &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
@@ -310,15 +344,15 @@
         <i class="fa fa-child"></i>
       <span>10 min</span>
       <span>Every 20 min</span>
-      </li>
-      <li class="크게2"><span class="두께">1</span> hr <span class="두께">38</span> min</li>
-      </ul>
+      </li></ul></div>
+      <div class="크게2"><span class="두께">1</span> hr <span class="두께">38</span> min</div>
+      </div>
     
-    <ul class="종합5">
-      <li>
-        <i class="fa fa-plane fa-lg"></i></li>
-      <li class="크게"><span class="두께">4:09 - 5:47 PM</span></li>
-      <li>
+    <div class="비행기5">
+      <div>
+      <i class="fa fa-plane fa-lg"></i></div>
+      <div class="크게"><ul><li><span class="두께">4:09 - 5:47 PM</span></div>
+      <div><ul><li>
        <i class="fa fa-child fa-lg"></i>
      &nbsp; <i class="fa fa-angle-right"></i>&nbsp;
       <i class="fa fa-bus fa-lg"></i>
@@ -334,14 +368,14 @@
       <li class="연회색">4:23 PM from 계원예술대학교</li>
       <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
-      <span>Every 20 min</span></li>
-      <li class="크게2"><span class="두께">1</span> hr <span class="두께">38</span> min</li>
-      </ul>
+      <span>Every 20 min</span></li></ul></div>
+      <div class="크게2"><span class="두께">1</span> hr <span class="두께">38</span> min</div>
+      </div>
     
-    <ul class="종합6">
-      <li>
-        <i class="fa fa-plane fa-lg"></i></li>
-      <li class="크게"><span class="두께">4:09 - 5:47 PM</span></li>
+    <div class="비행기6">
+      <div>
+        <i class="fa fa-plane fa-lg"></i></div>
+      <div class="크게"><ul><li><span class="두께">4:09 - 5:47 PM</span></li>
       <li>
         <i class="fa fa-child fa-lg"></i>
       &nbsp;<i class="fa fa-angle-right"></i>&nbsp;
@@ -358,9 +392,9 @@
       <li class="연회색">4:23 PM from 계원예술대학교</li>
       <li class="연회색"><i class="fa fa-child"></i>
       <span>10 min</span>
-      <span>Every 20 min</span></li>
-      <li class="크게2"><span class="두께">1</span> hr <span class="두께">38</span> min</li>
-      </ul>
+      <span>Every 20 min</span></li></ul></div>
+      <div class="크게2"><span class="두께">1</span> hr <span class="두께">38</span> min</div>
+      </div>
     </section>
 </body>
 </html>
