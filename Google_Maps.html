@@ -24,33 +24,68 @@
     
     .링크{
       top:0;
-      height:40px;
+      height:30px;
     background-color:#4688f1;
+    }
+    .이동수단{
+      display:inline-block;
+    }
+    .화살표{
+      color:white;
+      padding-left:15px;
     }
    
     
     
     
     .경로{
-     padding:10px 70px;
-      top:60px;
-      height:70px;
+     padding:0px 70px;
+      top:50px;
+      height:100px;
     background-color:#4688f1;
     }
     .경로>.크게, .크게계원{
       color:#99b3e8;
     }
     .크게계원{
+      padding-top:5px;
       font-size:11pt;
-      padding-left:30px;
       
+      border-bottom:2px solid #99b3e8;  
     }
+    .크게신사{
+      padding-top:10px;
+      font-size:11pt;
+      
+      color:#99b3e8;
+    }
+    
     .경로>i{
       color:#99b3e8;
     }
-    .경로>ul{
-    border-bottom:2px solid #99b3e8;  
+    .위치아이콘{
+      position:absolute;
+      top:0;
+      float:left;
+      left:74px;
+      text-align:center;
+      color:white;
+      
     }
+    .글자{
+      position:absolute;
+      padding-left:0px;
+      left:120px;
+      right:120px;
+    }
+    .화살표두개{
+     position:absolute; 
+      color:#99b3e8;
+      right:74px;
+      top:25px;
+    }
+    
+    
     
     
     .시간{
@@ -137,26 +172,28 @@
       padding-left:30px;
     } 
     
+     
+      
       
     
     </style>
-  
 </head>
 <body>
 <header>
         <div class="링크">
-           <i class="fa fa-arrow-left fa-lg"></i>
-        <i class="fa fa-car fa-lg"></i>
-        <i class="fa fa-plane fa-lg"></i>
-         <i class="fa fa-child fa-lg"></i>
+          <ul class="이동수단"><li class="화살표"> <i class="fa fa-arrow-left fa-lg"></i></li>
+      <li>  <i class="fa fa-car fa-lg"></i></li>
+        <li class="비행기"><i class="fa fa-plane fa-lg"></i></li>
+       <li>  <i class="fa fa-child fa-lg"></i></li></ul>
         </div>
+  
   <div class="경로">  
-    <i class="fa fa-map-marker fa-lg"></i>
-    <i class="fa fa-ellipsis-v fa-lg"></i>
-    <i class="fa fa-map-marker fa-lg"></i>
-  <span class="크게계원">계원예술대학교</span>
-  <span class="크게">신사동가로수길</span>
-    <i class="fa fa-arrows-v fa-lg"></i>
+    <ul class="위치아이콘"><li><i class="fa fa-map-marker fa-lg"></i></li>
+    <li><i class="fa fa-ellipsis-v fa-lg"></i></li>
+   <li> <i class="fa fa-map-marker fa-lg"></i></li></ul>
+ <ul class="글자"><li class="크게계원">계원예술대학교</li>
+ <li class="크게신사">신사동가로수길</li></ul>
+  <ul class="화살표두개"><li>  <i class="fa fa-arrows-v fa-lg"></i></li></ul>
 </div>
   <div class="시간">
     <i class="fa fa-list-ul fa-lg"></i>
