@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Alam</title>
+    <style>
+     body{
+       font-family:nanumgothic, sanserif; 
+      font-size:13px;
+      color:#5d5d5d;
+      background-color:#52ffbb;
+      max-width:600px;
+      
+     } 
+      
+      .화면조절, .날짜, .요일{
+        position:fixed;
+     left:50px;
+    right:50px;
+     padding:10px;
+      }
+      
+      .화면조절{
+         background-color:#0096a7;
+         top:40px;
+        height:10px;
+      color:#00bcd6;
+      }
+      
+      .최소화, .최대화, .닫기{
+position:absolute;
+        right:10px;
+        top:8px;
+      }
+      .최대화{
+        right:30px;
+      }
+      .닫기{
+         right:50px;
+      }
+      
+      
+     .날짜{
+         background-color:#00bcd6;
+        top:70px;
+        height:100px;
+     color:white;
+     }
+     .왼쪽이동, .오른쪽이동{position:absolute;
+     top:50px;}
+      
+      .왼쪽이동{
+     left:20px;
+      }
+      .오른쪽이동{
+     right:20px;
+      }
+     
+      .일, .월{
+position:fixed;
+    } 
+      .일{
+        font-size:50px;
+        top:85px;
+        left:40%;
+      }
+      .월{
+        color:#008293;
+        font-size:15px;
+        font-weight:bold;
+     top:150px;
+        left:40%;
+      }
+      
+      
+      
+      
+      .요일{
+        background-color:#5d5d5d; 
+      top:190px;
+        height:10px;
+     color:white; }
+      
+      .월요일{
+        position:absolute;
+        font-size:10px;
+        font-weight:bold;
+        left:20px;
+        
+      }
+      .추가아이콘{
+position:absolute;
+        color:#fff038;
+        right:20px;
+        top:-15px;
+      }
+      
+      ul{list-style-type:none;
+      }
+      li{display:inline-block;}
+      
+      
+      
+   section{
+     position:fixed;
+     top:220px;
+     left:50px;
+     right:50px;
+     bottom:40px;
+     overflow:scroll;
+     background-color:white;
+   }  
+     
+      .알람1, .알람2, .알람3, .알람4{
+      }
+      
+    .켬1{
+      position:absolute;
+      color:#1994f8;
+    right:10px;
+    top:30px;}
+      .켬3{position:absolute;
+        color:#1994f8;
+      right:10px;
+        top:230px;}
+      .켬4{position:absolute;
+        color:#1994f8;
+      right:10px;
+      top:330px;}
+      
+      .종1{position:absolute;
+        color:#1994f8;
+      left:10px;
+      top:30px;}
+      .종3{position:absolute;
+        color:#1994f8;
+      left:10px;
+      top:230px;}
+      .종4{position:absolute;
+        color:#1994f8;
+      left:10px;
+      top:330px;}
+      
+      
+      
+      .끔{position:absolute;
+        color:#ced1d2;
+      right:10px;
+      top:130px;}
+      
+      .종2{position:absolute;
+        color:#ced1d2;
+      left:10px;
+      top:130px;}
+      
+      
+      
+      .파랑{color:#1994f8;
+      font-size:10px; }
+      .연회색{font-size:10px;
+      color:#ced1d2;}
+      
+      
+      .시간1, .시간2, .시간3, .시간4{
+       position:absolute;
+        left:40px;
+      }
+      
+      .시간1{
+        color:#5d5d5d;
+           font-size:30px;
+        top:10px;
+      }
+     .시간2{
+        color:#ced1d2;
+        font-size:30px;
+       top:110px;
+      }
+      .시간3{
+        color:#5d5d5d;
+           font-size:30px;
+        top:210px;
+      }
+      .시간4{
+        color:#5d5d5d;
+           font-size:30px;
+        top:310px;
+      }
+      
+     
+      .반복1{
+       top:35px;
+        position:absolute;
+       
+     }
+      .반복2{
+        top:135px;
+        position:absolute;
+      }
+      .반복3{
+        top:235px;
+        position:absolute;
+      }
+      .반복4{
+        top:335px;
+        position:absolute;
+      }
+      
+      
+      
+      </style>
+</head>
+<body>
+  <header>
+    <div class="화면조절">
+      <ul>
+        <li class="최소화"><i class="fa fa-times"></i></li>
+        <li class="최대화"><i class="fa fa-times"></i></li>
+        <li class="닫기"><i class="fa fa-times"></i></li>
+      </ul>
+      </div>
+    
+    <div class="날짜">
+      <ul>
+        <li class="왼쪽이동"><i class="fa fa-arrow-left"></i></li>
+        <li class="일">18</li>
+        <li class="월">July 2014</li>
+        <li class="오른쪽이동"><i class="fa fa-arrow-right"></i></li>
+        </ul>
+      </div>
+      
+    <div class="요일">
+      <span class="월요일">MONDAY</span>
+      <span class="추가아이콘"><i class="fa fa-plus-square fa-3x"></i></span>
+      </div>
+    </header>
+  
+  <section>
+    <div class="알람1">
+      <div class="종1"><i class="fa fa-bell"></i></div>
+      <div class="시간1">06:30</div>
+      <div class="반복1">
+        <ul>
+          <li class="파랑">SU</li>
+          <li class="연회색">MO</li>
+          <li class="파랑">TU</li>
+          <li class="파랑">WE</li>
+          <li class="연회색">TH</li>
+          <li class="파랑">FR</li>
+          <li class="파랑">SA</li>
+          </ul>
+      </div>
+      <div class="켬1"><i class="fa fa-circle"></i></div>
+      </div>
+      
+      <div class="알람2">
+      <div class="종2"><i class="fa fa-bell"></i></div>
+      <div class="시간2">09:30</div>
+      <div class="반복2">
+        <ul>
+          <li class="연회색">SU</li>
+          <li class="연회색">MO</li>
+          <li class="연회색">TU</li>
+          <li class="파랑">WE</li>
+          <li class="연회색">TH</li>
+          <li class="연회색">FR</li>
+          <li class="연회색">SA</li>
+          </ul>
+        </div>
+      <div class="끔"><i class="fa fa-circle-o"></i></div>
+      </div>
+      
+      <div class="알람3">
+        <div class="종3"><i class="fa fa-bell"></i></div>
+      <div class="시간3">15:30</div>
+      <div class="반복3">
+        <ul>
+          <li class="파랑">SU</li>
+          <li class="연회색">MO</li>
+          <li class="연회색">TU</li>
+          <li class="연회색">WE</li>
+          <li class="연회색">TH</li>
+          <li class="연회색">FR</li>
+          <li class="연회색">SA</li>
+          </ul>
+        </div>
+      <div class="켬3"><i class="fa fa-circle"></i></div>
+      </div>
+      
+      <div class="알람4">
+      <div class="종4"><i class="fa fa-bell"></i></div>
+      <div class="시간4">07:30</div>
+      <div class="반복4">
+        <ul>
+         <li class="파랑">SU</li>
+          <li class="파랑">MO</li>
+          <li class="연회색">TU</li>
+          <li class="연회색">WE</li>
+          <li class="연회색">TH</li>
+          <li class="파랑">FR</li>
+          <li class="연회색">SA</li>
+          </ul>
+        </div>
+      <div class="켬4"><i class="fa fa-circle"></i></div>
+      </div>
+    </section>
+  </body>
+</html>
