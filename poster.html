@@ -2,342 +2,127 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Poster</title>
+  <title>Posters - Hanbin Lee</title>
   <style>
-    body{background-image: url("https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/포스터배경.png"); 
-      background-repeat: no-repeat;
-      background-size:900px;
-      
+  body{
+    font-family:'Helvetica', 'Nanum Gothic';
+    background-color:white;
+  }
+   ul{
+      list-style-type:none;
+     padding:0px;
     }
     
-  div.poster{font-family:nanumgothic;
-     max-width:900px;
-     height:720px;
-     }
-  div.title{font-family:nanumgothic;
-     max-width:900px;
-     height:720px;
-     }
- 
-    
-  li{font-size:9pt;
-    position: absolute;
-    text-align:center;
-    line-height:16px;
-    list-style-type:none;
+  .header{
+    position:fixed;
+    font-size:15px;
+    left:15px;
+  }
+    .header>h1{
+      background-color:white;
+      padding:10px;
+    }
+    .header>ul{
+      position:fixed;
+      background-color:white;
+      font-size:12px;
+     line-height:18px;
+      left:15px;
+      top:100px;
+      padding:10px;
     }
     
-   li.순서1{position: absolute;
-      left: 205px;
-      top: 95px;
-      color:#777b7f;
-      }
-   li.순서2{position: absolute;
-      left: 385px;
-      top: 114px;
-      color:#777b7f;
-      line-height:13px;
+    .work{
+      position:absolute;
+      top:30px;
+      bottom:30px;
+      left:300px;
+      right:15px;
+      font-size:13px;
+    }
+    .work>ul{
+      position:relative;
+      display:inline-block;
+      padding:10px;
+    }
+    
+    
+    .contact{
+    position:fixed;
+    bottom:0px;
+    right:15px;
+    text-align:right;
+    font-size:12px;
+    color:white;
+    line-height:18px;
    }
-   li.순서3{position: absolute;
-      left: 586px;
-      top: 95px;
-      color:#777b7f;
-      }
-   .크기 {font-size: 6pt;
-      }
-    
-    
-    h2.소제목{font-size: 22pt;
-     position: absolute;
-     left: 265px;
-     top: 200px;
-    }
-  span.소제목 {font-weight: normal;
-     }
-  
-    
-  h3.지아장커 {font-size: 15pt;
-    color:#676771;
-    position: absolute;
-    left: 382px;
-    top: 290px;
+   .contact>ul{
+      background-color:black;
+    padding:10px;
     }
     
     
-  img.상해전기{position: absolute;
-      height:450px;
-      left: 15px;
-      top: 190px;
+    a:hover {
+    text-decoration:underline;
+    }
+    
+    a{
+      color:black;
+      text-decoration:none;
+    }
+    h1>a:hover{
+      text-decoration:none;
+    }
+    
+    .smallbook{
+      width:200px;
+    }
+    .book{
+      width:300px;
+    }
+    .largebook{
+      width:400px;
+    }
+    .books{
+      width:500px;
+    }
+    .identity{
+      width:100px;
+    }
+    .font{
+      width:200px;
     }
     
     
-  h3.영어 {font-family:baskerville;
-    font-size: 22pt;
-    font-weight:normal;
-      color:#676771;
-      position: absolute;
-    left: 358px;
-    top: 460px;
-    }
-    
-   
-   
     
     
-    li.starring {
-      text-transform: uppercase; 
-      font-size: 7pt;
-      position: absolute;
-      padding-left:0px;
-      left:60px;
-      top: 1095px;
-      color:#fbf9f5;
-      letter-spacing:-1px;
-      line-height:11px;
-     display:inline;
-      }
-   li.present {
-     text-transform: uppercase; 
-      font-size: 7pt;
-      position: absolute;
-      padding-left:0px;
-      left:493px;
-      top: 1095px;
-      color:#fbf9f5;
-      letter-spacing:-1px;
-      line-height:11px;
-     display:inline;
-      }
-   li.distrebution {
-     text-transform: uppercase; 
-      font-size: 7pt;
-      position: absolute;
-      padding-left:0px;
-      left:762px;
-      top: 1095px;
-      color:#fbf9f5;
-      letter-spacing:-1px;
-      line-height:11px;
-    display:inline;
-      }
-   li.supermed {
-     text-transform: uppercase; 
-      font-size: 7pt;
-      position: absolute;
-      padding-left:0px;
-      left:60px;
-      top: 1107px;
-      color:#fbf9f5;
-      letter-spacing:-1px;
-      line-height:11px;
-    display:inline;
-      }
-   li.do {
-     text-transform: uppercase; 
-      font-size: 7pt;
-      position: absolute;
-      padding-left:0px;
-      left:239px;
-      top: 1107px;
-      color:#fbf9f5;
-      letter-spacing:-1px;
-      line-height:11px;
-     display:inline;
-      }
-    li.extraline {
-      text-transform: uppercase; 
-      font-size: 7pt;
-      position: absolute;
-      padding-left:0px;
-      left:333px;
-      top: 1107px;
-      color:#fbf9f5;
-      letter-spacing:-1px;
-      line-height:11px;
-     display:inline;
-      }
-  li.producers {
-    text-transform: uppercase; 
-      font-size: 7pt;
-      position: absolute;
-      padding-left:0px;
-      left:577px;
-      top: 1107px;
-      color:#fbf9f5;
-      letter-spacing:-1px;
-      line-height:11px;
-    display:inline;
-      }
-   li.associate {
-     text-transform: uppercase; 
-     font-size: 7pt;
-      position: absolute;
-      padding-left:0px;
-      left:333px;
-      top: 1120px;
-      color:#fbf9f5;
-      letter-spacing:-1px;
-      line-height:11px;
-     display:inline;
-      }
-    span.작게{font-size: 4pt;
-      }
     
     
-    p.개봉예정{font-size: 15pt;
-      position: absolute;
-      left: 640px;
-      top: 1110px;
-      color:#fedcb6;
-      letter-spacing:-0.4px; 
-      font-weight:bold;
-      }
     
-    li.스폰목록1{
-       position: absolute;
-      left: 45px;
-      top: 1137px;
-    display:inline;}
     
-    img.스폰서1{
-      height:20px;
-          
-    }
     
-   li.스폰목록2{
-     position: absolute;
-      
-      left: 100px;
-      top: 1139px;
-     
-   }
-    img.스폰서2{
-      height:20px;
-     
-      }
-     li.스폰목록3
-    {position: absolute;
-      left: 150px;
-      top: 1139px;
-       
-     }
-    img.스폰서3{
-      height:20px;
-      
-      }
-     li.스폰목록4
-    {position: absolute;
-      
-      left: 183px;
-      top: 1139px;
-      
-    }
-    img.스폰서4{
-      height:20px;
-     
-      }
-   li.스폰목록5{position: absolute;
-      
-      left: 240px;
-      top: 1143px;
-     
-   }
-    img.스폰서5{
-      height:13px;
-     
-      }
-     li.스폰목록6{position: absolute;
-     
-      left: 283px;
-      top: 1142px;
-       
-     }
-    img.스폰서6{
-      height:27px;
-     
-      } 
-    li.스폰목록7{
-      position: absolute;
-      left: 345px;
-      top: 1143px;
-    }
-    img.스폰서7{
-      height:13px;
-       }
-    li.스폰목록8{position: absolute;
-    
-      left: 390px;
-      top: 1130px;
-      
-    }
-    img.스폰서8{
-      height:35px;
-      
-      }
-    li.스폰목록9
-   {
-      position: absolute;
-      left: 440px;
-      top: 1130px;
-      
-    }
-    img.스폰서9{
-      height:35px;
-     
-      }
-    
-    p.copyright{font-size: 3pt; 
-    position: absolute;
-      left: 500px;
-      top: 1140px;
-      color:#fbf9f5;
-      letter-spacing:-0.5px;}
-    
-  
   </style>
 </head>
 <body>
-  <div class="poster">
-  <div class="title">
-   <ul>
-    <li class="순서1"><strong>2010</strong><br>두바이 국제 영화제<br>다큐멘터리상 수상</li>
-    <li class="순서2"><span class="크기">SELECTION OFFICIELLE</span><br><span class="두께">UN CERTAIN REGARD</span><br><span class="크기">FESTIVAL DE CANNES</span></li>
-    <li class="순서3"><strong>2010</strong><br>하와이 국제 영화제<br>다큐멘터리상 수상</li>
-     </ul>
-       
-<h2 class="소제목"><span class="소제목">17人의 소설같은</span> 기억의 도시</h2>
-  <h3 class="지아장커">지아장커 작품</h3>
-<h1><img class="상해전기" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/poster2.png" alt="상해전기"></h1>
-<h3 class="영어">I Wish I Know</h3>
-  <p class="개봉예정">2014년 11월 개봉예정</p>
-    <p class="copyright">FEATURE COPIRIGHT:©2010 XSIREAM PICTURIS LIMITED</p>  
-<ul>
-    <li class="starring"><span class="작게">Starring</span> Zhao Tao  Shanghai Film Group Corporation  Xatream Pictures  Ncu Group Ltd. Star Art Vision  Bojie Media</li>
-  <li class="present"><span class="작게">Present In Association with</span> The Bureau of The Shanghaiworld Expo Coordination</li>
-  <li class="distrebution"><span class="작게">Distrebution</span> Shanghai </li> 
-    <li class="supermed"><span class="작게">Supermed</span> China Film Co.Production Corporation </li>
-  <li class="do"><span class="작게">Do.Executime Producer</span> Zhu  Yonglei</li> 
-   <li class="extraline"> <span class="작게">Extraline Production</SPAN> Ren Zonglun Chow Keung Taylor An Li Peng Li Peng</li>
-  <li class="producers"><span class="작게">Producers</span> Wang Tianyun  Yu Likwai  Meg Jin  Lin Ye  Xiong Yong  Co.,LTD.</li> 
-  <li class="associate"><span class="작게">Associate Producers</span> Xu Wei  Zhang Dong  Mariah Jin  Li Jingyi  Liu Xiaodong</li> 
+<div class="header">
+  <h1><a href="http://yihanbin.github.io/index.html">Hanbin Lee<br>Graphic Design</a></h1>
+  <ul>
+    <li><a href="http://yihanbin.github.io/books.html">Books</a></li>
+    <li><a href="http://yihanbin.github.io/identities.html">Identities</a></li>
+    <li><a href="http://yihanbin.github.io/posters.html">Posters</a></li>
+    <li><a href="http://yihanbin.github.io/stuff.html">Stuff</a></li>
   </ul>
 </div>
-<ul>
-<li class="스폰목록1"><img class="스폰서1" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/마크4.png" alt="SFG"></li>
   
-  <li class="스폰목록2"><img class="스폰서2" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/마크6.png" alt="X stream"></li>
-  <li class="스폰목록3"> <img class="스폰서3" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/마크8.png" alt="海上傳奇"></li>
-   <li class="스폰목록4">
-  <img class="스폰서4" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/마크5.png" alt="savw"></li>
+  <div class="work">
+   </div>
   
-  <li class="스폰목록5"> <img class="스폰서5" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/마크3.png" alt="bojie media"></li>
-  
-   <li class="스폰목록6"><img class="스폰서6" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/마크2.png" alt="mk2"></li>
- <li class="스폰목록7">  <img class="스폰서7" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/마크3.png" alt="bojie media"></li>
-   <li class="스폰목록8"><img class="스폰서8" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/마크1.png" alt="sina"></li>
-   <li class="스폰목록9"><img class="스폰서9" src="https://googledrive.com/host/0B4o_ybv-191Cd00tdXZtSEp6cnc/마크1.png" alt="sina"></li>
-    </ul>
-
-</div>
+  <div class="contact">
+    <ul>
+      <li>Korea</li>
+      <li>+82 10 4466 4738</li>
+      <li>bin4738@icloud.com</li>
+      </ul>
+  </div>
 </body>
 </html>
