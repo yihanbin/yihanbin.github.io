@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>한빈 - 카카오톡</title>
+<style>
+  body{
+    margin:0px;
+    font-family:Dotum, 돋움, Helvetica, AppleSDGothicNeo, san-serif;
+  max-width:100%;
+  }
+  header{
+    position:fixed;
+    left:0;
+    right:0;
+    height:40px;
+    padding:10px;
+    background-image: linear-gradient(#826368, #543D47);
+    color:white;
+  }
+  header h1{
+    box-sizing:border-box;
+    font-size:16px;
+    font-weight:normal;
+    float:left;
+    margin:0;
+  }
+  header .kakao{
+    float:right;
+  }
+  .log{
+    position:fixed;
+    box-sizing:border-box;
+    overflow:scroll;
+    top:40px;
+    bottom:50px;
+    left:0;
+    right:0;
+    margin:0px;
+    list-style-type:none;
+    padding:10px;
+    background-color:#6C87B6;
+  }
+  .log .message{
+    background-color:white;
+    display:inline;
+    padding:5px;
+    border-radius:10px;
+    box-shadow:1px 1px 3px #666; 
+  }
+  .log li{
+    margin:15px 0;
+  }
+  
+  .self{text-align:right;}
+  
+  .self .nick{
+    display:none;
+  }
+  .self .profile{
+    display:none;
+  }
+  .self .message{
+    background-color:#FBF45E;
+  }
+  
+  .input{
+    position:fixed;
+    box-sizing:border-box;
+    height:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:10px;
+    background-color:#F4F5F0;
+    
+  }
+  </style>
+  </head>
+<body>
+<header>
+  <h1>유정</h1>
+  <div class="kakao">카카오톡</div>
+  </header>
+  
+  <ul class="log">
+    <li>
+      <img  class="profile" src="http://kaywonsad.appspot.com/s/profile01.png" alt="유정">
+      <div class="nick">유정</div>
+      <div class="time">오후 10:23</div>
+      <p class="message">미안하다 우리 헤어지자</p>
+    </li>
+    <li class="self">
+      <img  class="profile" src="http://kaywonsad.appspot.com/s/profile01.png" alt="유정">
+      <div class="nick">한빈</div>
+      <div class="time">오후 10:24</div>
+      <p class="message">ㅇㅋ</p>
+    </li>
+    <li>
+      <img  class="profile" src="http://kaywonsad.appspot.com/s/profile01.png" alt="유정">
+      <div class="nick">유정</div>
+      <div class="time">오후 10:25</div>
+      <p class="message">장난아니야ㅋㅋ</p>
+    </li>
+    <li class="self">
+      <img  class="profile" src="http://kaywonsad.appspot.com/s/profile01.png" alt="유정">
+      <div class="nick">한빈</div>
+      <div class="time">오후 10:26</div>
+      <p class="message">알았다고</p>
+    </li>
+    <li class="self">
+      <img  class="profile" src="http://kaywonsad.appspot.com/s/profile01.png" alt="유정">
+      <div class="nick">한빈</div>
+      <div class="time">오후 10:26</div>
+      <p class="message">알았다고</p>
+    </li>
+    <li class="self">
+      <img  class="profile" src="http://kaywonsad.appspot.com/s/profile01.png" alt="유정">
+      <div class="nick">한빈</div>
+      <div class="time">오후 10:26</div>
+      <p class="message">알았다고</p>
+    </li>
+    <li class="self">
+      <img  class="profile" src="http://kaywonsad.appspot.com/s/profile01.png" alt="유정">
+      <div class="nick">한빈</div>
+      <div class="time">오후 10:26</div>
+      <p class="message">알았다고</p>
+    </li>
+  </ul>
+  
+  <div class="input">
+    <button>이모티콘</button>
+    <input type="text">
+    <button>전송</button>
+  </div>
+</body>
+</html>
